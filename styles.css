@@ -34,16 +34,49 @@
 .header-grid {
     display: grid;
     grid-template: 1fr 1fr / 2fr 1fr;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 .header-login,
 .header-name {
     display: grid;
     grid-template: 1fr 1fr / 1fr 4fr;
+    gap: 4px;
+}
+
+.header-action {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap: 10px;
+}
+
+.header-action > a {
+    color: white;
+    background-color: #0077ff;
+    text-decoration: none;
+    border-radius: 13px;
+    padding: 3px;
+}
+
+img {
+    grid-row: 1 / 3;
+}
+
+input {
+    border-radius: 6px;
+    padding: 2px 6px;
+    background-color: #c2cfd47e;
+    border: none;
+}
+
+input[id='search'] {
+    width: 80%;
 }
 
 .content,
 .sidebar {
-    background-color: #ddf3fd;
+    background-color: #c2cfd47e;
 }
 
