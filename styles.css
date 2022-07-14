@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
     /* border: 1px solid black; */
 }
 
@@ -22,7 +26,7 @@ html, body {
 
 .dashboard {
     color: white;
-    background-color: #0077ff;
+    background-color: #439bff;
     grid-row: 1 / 3;
 
 }
